@@ -8,7 +8,7 @@ nouns = ['cat', 'shoe', 'bevy', 'peace', 'team', 'mountain', 'camping', 'jellyfi
 while True:
     adjective = random.choice(adjectives)
     noun = random.choice(nouns)
-    number = random.randrange(0, 100)
+    number = random.randrange(0, 999)
     special_char = random.choice(string.punctuation)
 
     password = adjective + noun + str(number) + special_char
